@@ -1,0 +1,114 @@
+*{
+    font-family: Segoe UI;
+    color: white;
+    text-decoration: none;
+    text-justify: auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.w-sm{
+    width: 150px;
+}
+.nav-link{
+    color: rgb(212, 212, 212);
+}
+.nav-link:hover{
+    color: white;
+}
+.bg-darker{
+    background-color: #333333;  
+}
+.bg-black{
+    background-color: #333333ea;  
+}
+.bg-dark-2{
+    background-color: #1d1d1dea;  
+}
+.bg-333{
+    background-color: rgba(0, 0, 0, 0.578);
+}
+.txt-sm{
+    font-size: small;
+}
+.txt-xs{
+    font-size: smaller;
+}
+.text-md{
+    font-size: x-large;
+}
+.text-lg{
+    font-size: xx-large;
+}
+.fa-md-2x{
+    font-size: xx-large;
+}
+@media screen and (max-width: 550px){
+    .src{
+        display: none;
+    }
+    .text-md{
+        font-size: large;
+    }
+    .text-lg{
+        font-size: large;
+    }
+    
+    .hide{
+        display: none;
+        position: absolute;
+    }
+    .fa-md-2x{
+        font-size: x-large;
+    }
+}
+
+.bg-img{
+    background-image: url(images/server.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-img-domain{
+    background-image: url(images/banner-transparent.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-dark-trans{
+    background-color: #33333395;
+}
+.bg-dark-trans-2{
+    background-color: #111010ed;
+}
+.bg-dark-trans-3{
+    background-color: #1110107b;
+}
+.icon-md{
+    font-size: 60px;
+}
+.h-10{
+    height: 60px;
+}
+.border-darker{
+    border: solid 1px #333333;
+}
+.border-b-darker{
+    border-bottom: solid 1px #333333;
+}
+.border-r-darker{
+    border-right: solid 1px #504c4c;
+}
+.border-b-dark{
+    border-bottom: solid 1px #504c4c;
+}
+.border-t-dark{
+    border-top: solid 1px #504c4c;
+}
+.img-w{
+    width: 150px;
+    height: 50px;
+}
+.flex-end{
+    justify-self: flex-end;
+}
