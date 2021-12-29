@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueNode</title>
+    <link rel="stylesheet" href="assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar bg-black p-2 d-flex text-white txt-xs justify-content-around flex-wrap  align-items-center">
+        <span class="">Start your business Here</span>
+        <div class="icon d-flex justify-content-around w-md-0 w-50 align-items-center flex-wrap">
+            <a href="contact.html">
+                <i class="fa fa-phone-alt"></i> <span class="hide">Contact Us </span>
+            </a>
+            <a href="">
+                <i class="far fa-envelope"></i> <span class="hide">contact@bluenode.cc</span> &nbsp;
+            </a>
+            <a href="">
+                <i class="fa fa-mobile-alt"></i> <span class="hide">+60-340652671 </span>
+            </a>
+            <a href="">
+                <i class="fab fa-whatsapp"></i> <span class="hide">Whatsapp </span>
+            </a>
+            <a href="" class="btn bg-darker rounded-0 txt-sm">
+                <i class="far fa-user"></i> <span class="hide">Client Login </span>
+            </a>
+        </div>
+    </div>
+    <!-- Top Bar -->
+<!-- Navbar -->
+    <nav class="navbar p-1 bg-darker navbar-expand-md border-b-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="assets/images/banner-transparent.png" class="w-sm" alt="Logo">
+            </a>
+
+            <button class="btn btn-dark navbar-toggler" data-target="#collapse" data-toggle="collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="collapse">
+                <ul class="navbar-nav pl-3">
+                    <li class="list-item">
+                        <a href="Domain.html" class="nav-link txt-sm">Domains</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="hosting.html" class="nav-link txt-sm">Hosting</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="server.html" class="nav-link txt-sm">Servers</a>
+                    </li>
+                    <li class="list-item bg-light">
+                        <a href="premium.html" class="nav-link txt-sm text-dark">BlueNode Premium</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Navbar -->
+
+<!-- Comtent -->
+    <section class="content bg-darker pb-3">
+        <div class="container pt-5">
+            <div class="row border-b-dark">
+
+                <div class="col-md-3">
+                    <div class="border-r-darker border-t-dark h-100 d-flex flex-column">
+                        <a href="signup.html" class="nav-link border-b-dark">
+                            <span class="text-light d-block">
+                                Step 1
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Register/Create an Account
+                            </span>
+                        </a>
+
+                        <a href="startup.html#startup" class="nav-link border-b-dark bg-dark-trans-2">
+                            <span class="text-light d-block">
+                                Step 2
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Complete Startup Profile
+                            </span>
+                        </a>
+
+                        <a href="startup.html#team" class="nav-link border-b-dark">
+                            <span class="text-light d-block">
+                                Step 3
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Complete Team Profile
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-9" id="startup">
+                    <div class="form row justify-content-center">
+                        <form action="" method="post" class="form-group col-md-12 border-darker-2 p-3">
+                            <div class="log bg-dark-trans-2 p-3 text-md">
+                                Complete Startup Profile
+                            </div>
+                            <div class="form-content p-3">
+                                <div class="row border-darker-2">
+                                    <div class="col-md-12">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Tell us about your Company
+                                        </h6>
+                                        <label for="cname">
+                                            Company name
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-eye-slash border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="cname" id="cname" class="form-control rounded-0 bg-darker border-darker-2" placeholder="BlueNode">
+                                        </div>
+                                    </div>
+
+                                    <h6 class="border-b-dark pb-2 col-md-12 mt-3">
+                                        HQ Location
+                                    </h6>
+                                    <div class="col-md-6">
+                                        <label for="city">
+                                            City
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-map border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="city" id="city" class="form-control rounded-0 bg-darker border-darker-2" placeholder="New York">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="state">
+                                            State - <i>optional</i>
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="fa fa-map-marker border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="state" id="state" class="form-control rounded-0 bg-darker border-darker-2" placeholder="Delaware">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="cr">
+                                            Country / Region
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-map border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="cr" id="cr" class="form-control rounded-0 bg-darker border-darker-2" placeholder="United States">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="zip">
+                                            Zip code
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-flag border-right text-dark p-2 bg-light"></i>
+                                            <input type="number" name="zip" id="zip" class="form-control rounded-0 bg-darker border-darker-2" placeholder="1000001">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="web">
+                                            Company's website
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-map border-right text-dark p-2 bg-light"></i>
+                                            <input type="url" name="web" id="web" class="form-control rounded-0 bg-darker border-darker-2" placeholder="http://www.example.com">
+                                        </div>
+                                        <input type="checkbox" name="web-no" id=""> <small> i dont have a company website </small>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3">
+                                        <label for="bld">
+                                            What are you building ?
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <!-- <i class="far fa-map border-right text-dark p-2 bg-light"></i> -->
+                                            <textarea name="bld" id="bld" cols="30" rows="5" class="form-control rounded-0 bg-darker border-darker-2" placeholder="0/250 letters"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 mt-3 txt-sm">
+                                        <label for="cst">
+                                            Who are your primary target customers ?
+                                        </label> <br>
+                                        <input type="checkbox" name="con" id="con"> <span>Consumers</span> <br>
+                                        <input type="checkbox" name="con" id="con"> <span>Business</span> <br>
+                                        <input type="checkbox" name="con" id="con"> <span>Public sector Organizations</span> <br>
+                                    </div>
+
+                                    <div class="col-md-6 mt-5">
+                                        <label for="emp">
+                                            Homany employee do you currently have ?
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-map border-right text-dark p-2 bg-light"></i>
+                                            <input type="number" name="emp" id="emp" class="form-control rounded-0 bg-darker border-darker-2">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row border-darker-2 mt-5">
+                                    <div class="col-md-12 p-3">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Tell us about your Funding
+                                        </h6>
+                                        <label for="val">
+                                            What's your lates Valuation (US$) - optional
+                                        </label>
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> No Vaaluation
+                                        </span>
+
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> < $1 Million
+                                        </span>
+
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> $1 Million - $10 Million
+                                        </span>
+
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> $10 Million - $50 Million
+                                        </span>
+
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> $50 Million - $100 Million
+                                        </span>
+
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="val" id="val"> > $100 Million
+                                        </span>
+                                    </div>
+
+                                    <div class="col-md-12 p-3 border-t-dark">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Tell us about your Product
+                                        </h6>
+
+                                        <span class="text-white txt-sm">
+                                            Company's Current product stage ?
+                                        </span>
+                                        <div class="row">
+                                            <div class="col-md-4 mt-3">
+                                                <label for="1" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="radio" name="1" id="1" class="mr-2">
+                                                    Ideating/Building initial product
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="2" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="radio" name="1" id="2" class="mr-2">
+                                                    Launched initial product and iterating
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="3" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="radio" name="1" id="3" class="mr-2">
+                                                    Scalling
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 border-t-dark">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Poduct launch date
+                                        </h6>
+
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-clock border-right text-dark p-2 bg-light"></i>
+                                            <input type="date" name="launch" id="launch" class="form-control rounded-0 bg-darker border-darker-2" placeholder="New York">
+                                        </div>
+
+                                        <label for="cst">
+                                            How will customers interact with your product ?
+                                        </label>
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="checkbox" name="cst1" id="cst1" class="bg-darker border-darker-2">
+                                            <label for="cst1" class="txt-xs ml-3 mt-2">
+                                                Web Browser
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="checkbox" name="cst2" id="cst2" class="bg-darker border-darker-2">
+                                            <label for="cst2" class="txt-xs ml-3 mt-2">
+                                                Mobile Application
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="checkbox" name="cst3" id="cst3" class="bg-darker border-darker-2">
+                                            <label for="cst3" class="txt-xs ml-3 mt-2">
+                                                Desktop Application
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="checkbox" name="cst4" id="cst4" class="bg-darker border-darker-2">
+                                            <label for="cst4" class="txt-xs ml-3 mt-2">
+                                                API
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="checkbox" name="cst5" id="cst5" class="bg-darker border-darker-2">
+                                            <label for="cst5" class="txt-xs ml-3 mt-2">
+                                                Others
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 border-t-dark">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Does your product use AI and Machine Learning Technologies ?
+                                        </h6>
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="radio" name="cst" id="lab1" class="bg-darker border-darker-2">
+                                            <label for="lab1" class="txt-xs ml-3 mt-2">
+                                                Yes, We build core AI/ML products.
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="radio" name="cst" id="lab2" class="bg-darker border-darker-2">
+                                            <label for="lab2" class="txt-xs ml-3 mt-2">
+                                                Yes, We use AI/ML to improve our products.
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="radio" name="cst" id="lab3" class="bg-darker border-darker-2">
+                                            <label for="lab3" class="txt-xs ml-3 mt-2">
+                                                No, we don't but we plan to in the future.
+                                            </label>
+                                        </div>
+
+                                        <div class="d-flex align-items-center rounded">
+                                            <input type="radio" name="cst" id="lab4" class="bg-darker border-darker-2">
+                                            <label for="lab4" class="txt-xs ml-3 mt-2">
+                                                No, We don't plan on using AI/ML Technologies
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12 border-t-dark">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            We'd love to know more about your interest in BlueNode Premium
+                                        </h6>
+                                        <div class="col-md-12">
+                                            <div class="d-flex align-items-center rounded">
+                                                <input type="radio" name="pec" id="pec1" class="bg-darker border-darker-2">
+                                                <label for="pec1" class="txt-xs ml-3 mt-2">
+                                                    100%
+                                                </label>
+                                            </div>
+
+                                            <div class="d-flex align-items-center rounded">
+                                                <input type="radio" name="pec" id="pec2" class="bg-darker border-darker-2">
+                                                <label for="pec2" class="txt-xs ml-3 mt-2">
+                                                    75% - 99%
+                                                </label>
+                                            </div>
+
+                                            <div class="d-flex align-items-center rounded">
+                                                <input type="radio" name="pec" id="pec3" class="bg-darker border-darker-2">
+                                                <label for="pec3" class="txt-xs ml-3 mt-2">
+                                                    50% - 75%
+                                                </label>
+                                            </div>
+
+                                            <div class="d-flex align-items-center rounded">
+                                                <input type="radio" name="pec" id="pec4" class="bg-darker border-darker-2">
+                                                <label for="pec4" class="txt-xs ml-3 mt-2">
+                                                    25% - 50%
+                                                </label>
+                                            </div>
+
+                                            <div class="d-flex align-items-center rounded">
+                                                <input type="radio" name="pec" id="pec5" class="bg-darker border-darker-2">
+                                                <label for="pec5" class="txt-xs ml-3 mt-2">
+                                                    < 25%
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            How can BlueNode help you ?
+                                        </h6>
+
+                                        <div class="row">
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck1" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck1" class="mr-2">
+                                                    Acquiring early Customers
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck2" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck2" class="mr-2">
+                                                    Retaining Customers
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck3" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck3" class="mr-2">
+                                                    Monetization
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck4" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck4" class="mr-2">
+                                                    Choosing the right tech solution
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck5" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck5" class="mr-2">
+                                                    Validating product concept
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck6" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck6" class="mr-2">
+                                                    Raising Capital
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck7" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck7" class="mr-2">
+                                                    Finding Co-founders
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck8" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck8" class="mr-2">
+                                                    TGeographic Expansion
+                                                </label>
+                                            </div>
+
+                                            <div class="col-md-4 mt-3">
+                                                <label for="ck9" class="d-flex w-100 border-darker-2 p-2 align-items-center txt-xs">
+                                                    <input type="checkbox" name="ck" id="ck9" class="mr-2">
+                                                    Other
+                                                </label>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="border-r-darker border-t-dark h-100 d-flex flex-column">
+                        <a href="signup.html" class="nav-link border-b-dark">
+                            <span class="text-light d-block">
+                                Step 1
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Register/Create an Account
+                            </span>
+                        </a>
+
+                        <a href="startup.html#startup" class="nav-link border-b-dark">
+                            <span class="text-light d-block">
+                                Step 2
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Complete Startup Profile
+                            </span>
+                        </a>
+
+                        <a href="startup.html#team" class="nav-link border-b-dark bg-dark-trans-2">
+                            <span class="text-light d-block">
+                                Step 3
+                            </span>
+                            <span class="text-primary txt-xs">
+                                Complete Team Profile
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-9" id="team">
+                    <div class="form row justify-content-center">
+                        <form action="" method="post" class="form-group col-md-12 border-darker-2 p-3">
+                            <div class="log bg-dark-trans-2 p-3 text-md">
+                                Complete Team Profile
+                            </div>
+                            <div class="form-content p-3">
+                                <div class="row border-darker-2">
+
+                                    <h6 class="border-b-dark pb-2 col-md-12 mt-3">
+                                        Tell us little about your self
+                                    </h6>
+                                    <div class="col-md-6">
+                                        <label for="fname">
+                                            First Name
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-user border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="fname" id="fname" class="form-control rounded-0 bg-darker border-darker-2" placeholder="First name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="lname">
+                                            Last Name
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-user border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="lname" id="lname" class="form-control rounded-0 bg-darker border-darker-2" placeholder="Last name">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="em">
+                                            E-mail Address
+                                            <small class="d-block text-secondary">
+                                                company email address is preferred
+                                            </small>
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="far fa-envelope border-right text-dark p-2 bg-light"></i>
+                                            <input type="email" name="em" id="em" class="form-control rounded-0 bg-darker border-darker-2" placeholder="exampla@something.com">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="mobile">
+                                            Mobile
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="fa fa-phone-alt border-right text-dark p-2 bg-light"></i>
+                                            <input type="number" name="mobile" id="mobile" class="form-control rounded-0 bg-darker border-darker-2" placeholder="+1 920-646-4341">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="role">
+                                            Current Role ?
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="fa fa-user-circle border-right text-dark p-2 bg-light"></i>
+                                            <input type="text" name="role" id="role" class="form-control rounded-0 bg-darker border-darker-2" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <label for="time">
+                                            How long have you been using BlueNode ?
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="fa fa-user-circle border-right text-dark p-2 bg-light"></i>
+                                            <input type="number" name="time" id="time" class="form-control rounded-0 bg-darker border-darker-2" placeholder="">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-md-12 mt-3">
+                                        <label for="link">
+                                            LinkedIn Prrofile link ?
+                                        </label>
+                                        <div class="d-flex align-items-center bg-light rounded border-darker-2 mb-3">
+                                            <i class="fa fa-user-circle border-right text-dark p-2 bg-light"></i>
+                                            <input type="url" name="link" id="link" class="form-control rounded-0 bg-darker border-darker-2" placeholder="https://www.linkedin.com/in/exampla/">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row border-darker-2 mt-5 justify-content-end">
+                                    <div class="col-md-12 p-3">
+                                        <h6 class="border-b-dark pb-2 mt-3">
+                                            Are you a founder of your Startup ?
+                                        </h6>
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="st" id="st"> Yes
+                                        </span>
+                                        <span class="d-block txt-sm">
+                                            <input type="radio" name="st" id="st"> No
+                                        </span>
+                                    </div>
+
+                                    <button class="btn btn-success rounded-0 mr-3 mb-2">
+                                        Submit Application
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-white p-2 border-bottom mt-5">
+                Start your Business here.
+            </h3>
+            <div class="row justify-content-between">
+                <div class="col-md-4 txt-sm">
+                    BlueNode offers the best value in high performance, Shared Hosting, Reseller Hosting and Virtual Private Servers.
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 mb-2">
+                            <a href="" class="nav-link border text-center bg-darker btn-dark rounded">
+                                <i class="fab fa-whatsapp"></i> Whatsapp
+                            </a>
+                        </div>
+
+                        <div class="col-md-6 mb-2">
+                            <a href="" class="nav-link border bg-darker text-center btn-dark rounded">
+                                <i class="fa fa-phone-alt"></i> Phone Support
+                            </a>
+                        </div>
+                        <div class="col-md-12">
+                            <a href="" class="nav-link border bg-darker btn-dark text-center rounded">
+                                <i class="far fa-envelope"></i> contact@bluenode.cc
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="assets/jquery-3.4.1.slim.min.js"></script>
+<script src="assets/bootstrap.min.js"></script>
+<script src="assets/popper.min.js"></script>
+</body>
+</html>

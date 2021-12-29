@@ -1,8 +1,11 @@
 *{
-    font-family: Segoe UI;
+    font-family: Sans-serif font;
     color: white;
     text-decoration: none;
     text-justify: auto;
+}
+input{
+    color: white;
 }
 a:hover{
     text-decoration: none;
@@ -93,11 +96,17 @@ a:hover{
 .border-darker{
     border: solid 1px #333333;
 }
+.border-darker-2{
+    border: solid 1px #464646;
+}
 .border-b-darker{
     border-bottom: solid 1px #333333;
 }
 .border-r-darker{
     border-right: solid 1px #504c4c;
+}
+.border-l-darker{
+    border-left: solid 1px #504c4c;
 }
 .border-b-dark{
     border-bottom: solid 1px #504c4c;
