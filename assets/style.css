@@ -20,13 +20,13 @@ a:hover{
     color: white;
 }
 .bg-darker{
-    background-color: #333333;  
+    background-color: #333333;
 }
 .bg-black{
-    background-color: #333333ea;  
+    background-color: #333333ea;
 }
 .bg-dark-2{
-    background-color: #1d1d1dea;  
+    background-color: #1d1d1dea;
 }
 .bg-333{
     background-color: rgba(0, 0, 0, 0.578);
@@ -56,7 +56,7 @@ a:hover{
     .text-lg{
         font-size: large;
     }
-    
+
     .hide{
         display: none;
         position: absolute;
@@ -120,4 +120,11 @@ a:hover{
 }
 .flex-end{
     justify-self: flex-end;
+}
+.w-xs{
+    width: 100px;
+    height: 30px;
+}
+.align-right{
+    text-align: right;
 }
